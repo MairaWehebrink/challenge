@@ -21,6 +21,8 @@ You have to build a architecture where through APIs it could be possible:
 - [ ] Real database usage
 - [ ] Automated generate docs of API
 
+> 🥳 Any extra's welcome
+
 ## Don't spend your time with:
 
 - Front-end implementation
