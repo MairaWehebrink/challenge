@@ -29,4 +29,4 @@ You have to build a architecture where through APIs it could be possible:
 
 ## Requirements to delivery the solution
 - [ ] All environment of solution must be provide by [docker-compose](https://docs.docker.com/compose)
-- [ ] Make a fork from this project and then open a PR from a branch named with your GitHub username
+- [ ] Make a fork from this repository and then open a PR from a branch named with your GitHub username
