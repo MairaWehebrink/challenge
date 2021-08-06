@@ -1,34 +1,36 @@
 # Challenge
 
 ## Description
-You have to build a architecture where through APIs it could be possible: 
 
-- [ ] Issue a credit card 
-- [ ] Pay a credit card bill and then include the paid value as credit back
-- [ ] Query credit card statements
-- [ ] Process a credit card transaction from a [POS machine](https://www.youtube.com/watch?v=_zM2OsABOWQ)
+You will have to build a system that, through APIs, will be possible:
+
+- [ ] Issue a Credit Card;
+- [ ] Process a credit card transaction from a [POS machine](https://www.youtube.com/watch?v=_zM2OsABOWQ);
+- [ ] Pay the Credit Card bill and refund the card limit;
+- [ ] Notify that a transaction has been made to other systems that need to be aware of it;
 
 ### :warning: Scope requirements
 
-- [ ] The app that'll process the credit card transaction should have request response time less than 1 second
-- [ ] Even if credit card account is offline the app that process credit card transaction doesn't must be offline too
+- [ ] Requesting approval for a credit card transaction should take no longer than 1 second;
+- [ ] Even if the user's account is offline, credit card transactions should still work;
+- [ ] Save transaction history;
 
 ## Evaluation points
 
-- [ ] Design patterns for source code
-- [ ] Automated tests
-- [ ] Design architecture
-- [ ] Real database usage
-- [ ] Automated generate docs of API
+- [ ] System architecture and scalability;
+- [ ] Design patterns;
+- [ ] Tests and CI configuration;
+- [ ] Technologies used;
+- [ ] APIs documentation;
+- [ ] Commit history;
 
-> 🥳 Any extra's welcome
+## Do not spend your time with:
 
-## Don't spend your time with:
-
-- Front-end implementation
-- Creating scripts to delivery the solution in whatever cloud provider
-- With 100% tests coverage, test only necessary. (Of course, if you think that 100% is necessary, feel free to do it)
+- Front-end implementation;
+- Writing scripts to deliver the solution to a cloud provider;
 
 ## Requirements to delivery the solution
-- [ ] All environment of solution must be provide by [docker-compose](https://docs.docker.com/compose)
-- [ ] Make a fork from this repository and then open a PR from a branch named with your GitHub username
+
+- [ ] It must be possible to run the application via a [docker-compose](https://docs.docker.com/compose);
+- [ ] Make a private fork from this repository;
+- [ ] Open a PR from a branch named with your GitHub username and check both "GabrielBG99" and "guiferpa" to review;
