@@ -1,5 +1,10 @@
 # Challenge
 
+Hello, Developer!
+
+This is the challenge for developers who are participating in our selection process!
+We don't believe in perfect solutions, we just need to understand how you approach software problems.
+
 ## Description
 
 You will have to build a system that, through APIs, will be possible:
@@ -9,7 +14,7 @@ You will have to build a system that, through APIs, will be possible:
 - [ ] Pay the Credit Card bill and refund the card limit;
 - [ ] Notify that a transaction has been made to other systems that need to be aware of it;
 
-### :warning: Scope requirements
+### Scope requirements
 
 - [ ] Requesting approval for a credit card transaction should take no longer than 1 second;
 - [ ] Even if the user's account is offline, credit card transactions should still work;
@@ -24,7 +29,7 @@ You will have to build a system that, through APIs, will be possible:
 - [ ] APIs documentation;
 - [ ] Commit history;
 
-## Do not spend your time with:
+## Do not spend your time with
 
 - Front-end implementation;
 - Writing scripts to deliver the solution to a cloud provider;
